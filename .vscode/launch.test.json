@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "fizzbuzz-01-java-tdd",
+                "projectName": "fizzbuzz-01-java-tdd",
+                "workingDirectory": "/home/marco/sources/code-kata",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "fizzbuzz-01-java-tdd",
+                "projectName": "fizzbuzz-01-java-tdd",
+                "workingDirectory": "/home/marco/sources/code-kata",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

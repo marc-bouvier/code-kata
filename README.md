@@ -1,3 +1,4 @@
+
 # FizzBuzz #01 - Java - TDD
 
 ## About this Kata
@@ -63,7 +64,12 @@ Buzz
 Explication du Kata + liens
 
 ### Approche utilisée
+Java, Junit 5 , maven, tests paramétrés
 
+TDD : écriture d'un test et élargissement du périmètre au fuir et à mesure.
+Correction du code au fur et à mesure que les tests passent au rouge, jusqu'à ce qu'ils passent au vert.
+
+Problème : pour tester le périmètre (les 100 premiers nombres) on est tenté d'automatiser le test pour éviter de saisir en dur les différentes valeurs attendues. Mais cela reviendrait à réécrire fizzbuzz... Pas d'autre solution à priori que d'écrire l'ensemble du jeu de test.
 
 ### Remarques , frustrations, choses apprises
 
