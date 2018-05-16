@@ -13,6 +13,7 @@ Exercices répétitifs pour s'entrainer à résoudre différents problèmes, app
 
 * [CodeWars](https://www.codewars.com)
 * [CodeKata by Dave Thomas](http://codekata.com/)
+* [Coding Dojo](http://codingdojo.org/kata/)
 
 ## Mode d'emploi
 
