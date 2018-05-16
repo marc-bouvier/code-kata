@@ -5,7 +5,7 @@ This Kata was posted here by someone anonymously. Michael Feathers and EmilyBach
 
 Difficulty: Easy Good for teaching: TDD , BabySteps
 
-## Problem Description
+## Problem Description
 
 Imagine the scene. You are eleven years old, and in the five minutes before 
 the end of the lesson, your Maths teacher decides he should make his 
