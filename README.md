@@ -78,6 +78,9 @@ Tdd permet de trouver une solution de façon incrémentale au fur et à mesure q
 est précisé par les tests. Je pense qu'il faut faire attention au code une fois que tous les tests 
 passent et qu'il faut le refactorer pour le rendre plus modulaire.
 
+Effet de bord intéressant : le fait de travailler sur un projet simple et sur une branche, j'utilise
+plus naturellement la ligne de commandes (git et mvn). J'apprends également à les utiliser ainsi.
+
 ## Sources de Katas
 
 Exercices répétitifs pour s'entrainer à résoudre différents problèmes, apprendre des langages/technologies/méthodologies.
