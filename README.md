@@ -73,6 +73,8 @@ Problème : pour tester le périmètre (les 100 premiers nombres) on est tenté 
 
 ### Remarques , frustrations, choses apprises
 
+La solution intuitive requiert 3 `if`. On pourrait mieux faire (Lambda?)
+
 ## Sources de Katas
 
 Exercices répétitifs pour s'entrainer à résoudre différents problèmes, apprendre des langages/technologies/méthodologies.
