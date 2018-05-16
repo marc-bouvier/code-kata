@@ -74,6 +74,9 @@ Problème : pour tester le périmètre (les 100 premiers nombres) on est tenté 
 ### Remarques , frustrations, choses apprises
 
 La solution intuitive requiert 3 `if`. On pourrait mieux faire (Lambda?)
+Tdd permet de trouver une solution de façon incrémentale au fur et à mesure que le périmètre fonctionnel
+est précisé par les tests. Je pense qu'il faut faire attention au code une fois que tous les tests 
+passent et qu'il faut le refactorer pour le rendre plus modulaire.
 
 ## Sources de Katas
 
