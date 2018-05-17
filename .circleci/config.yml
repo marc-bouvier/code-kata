@@ -15,9 +15,3 @@ jobs:
           paths:
             - elm-stuff
             - tests/elm-stuff
-            
-workflows:
-  version: 2
-  build-deploy:
-    jobs:
-      - build-job
