@@ -8,8 +8,8 @@ jobs:
       - checkout
       - restore_cache:
           key: dependencies-{{ checksum "elm-package.json" }}
-      - run: npx elm-app build
-      - run: npx elm-app test
+      - run: elm-format --validate src tests
+      - run: elm-test
       - save_cache:
           key: dependencies-{{ checksum "elm-package.json" }}
           paths:
