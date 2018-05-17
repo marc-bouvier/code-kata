@@ -65,6 +65,7 @@ Buzz
 
 ### Approche utilisée
 Langage Elm, programmation fonctionnelle pure.
+Je me suis contenté de faire une fonction simple avec modulo 15, 3 et 5.
 
 Pour lancer le programme, à la racine du projet:
 ```
@@ -72,8 +73,17 @@ elm-reactor
 ```
 Puis aller à http://localhost:8000
 
-### Remarques , frustrations, choses apprises
+Pour lancer les tests
+```
+elm-test
+```
 
+### Remarques , frustrations, choses apprises
+Ce qui m'a demandé un peu plus de travail a été de voir comment itérer sur 100 valeurs.
+
+Egalement la mise en place des tests et de l'intégration continue (Travis CI) a demandé un peu de recherche.
+
+Cela m'a également demandé de bien comprendre List.map (aussi bien pour le programme que pour les tests).
 
 ## Sources de Katas
 
