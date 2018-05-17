@@ -1,10 +1,12 @@
 module Main exposing (..)
 
-import Html exposing (li, text, ul)
 import FizzBuzz exposing (..)
+import Html exposing (li, text, ul)
+
 
 -- TODO : générateur pour aller de 1 à 100
 -- fonction pour
+
 
 main : Html.Html msg
 main =

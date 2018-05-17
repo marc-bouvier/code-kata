@@ -1,5 +1,6 @@
 module FizzBuzz exposing (..)
 
+
 fizzbuzz : Int -> String
 fizzbuzz number =
     if number % 15 == 0 then
