@@ -1,25 +1,23 @@
-machine:
-  environment:
-    YARN_VERSION: 1.6.0
-    PATH: "${PATH}:${HOME}/.yarn/bin"
-  node:
-    version: 8.11.1
-dependencies:
-  pre:
-    - |
-      if [[ ! -e ~/.yarn/bin/yarn || $(yarn --version) != "${YARN_VERSION}" ]]; then
-        curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
-      fi
-  override:
-    - yarn install
-  post:
-    # Workaround to Elm CI test suite timeout: https://github.com/elm-lang/elm-compiler/issues/1473.
-    - if [ ! -d libsysconfcpus ]; then git clone https://github.com/obmarg/libsysconfcpus.git; fi
-    - cd libsysconfcpus && ./configure && make && sudo make install
-  cache_directories:
-    - libsysconfcpus
-    - ~/.yarn
-    - ~/.yarn-cache
-test:
-  override:
-    - yarn run ci
+version: 2
+
+jobs:
+  build-job:
+    docker:
+      - image: taylorjg/circleci-create-elm-app:v2
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependencies-{{ checksum "elm-package.json" }}
+      - run: npx elm-app build
+      - run: npx elm-app test
+      - save_cache:
+          key: dependencies-{{ checksum "elm-package.json" }}
+          paths:
+            - elm-stuff
+            - tests/elm-stuff
+            
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build-job
