@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Html exposing (li, text, ul)
-
+import FizzBuzz exposing (..)
 
 -- TODO : générateur pour aller de 1 à 100
 -- fonction pour
@@ -25,15 +25,3 @@ main =
         , li [] [ text <| fizzbuzz 14 ]
         , li [] [ text <| fizzbuzz 15 ]
         ]
-
-
-fizzbuzz : Int -> String
-fizzbuzz number =
-    if number % 15 == 0 then
-        "FizzBuzz"
-    else if number % 3 == 0 then
-        "Fizz"
-    else if number % 5 == 0 then
-        "Buzz"
-    else
-        toString number
