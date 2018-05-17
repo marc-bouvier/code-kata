@@ -79,11 +79,11 @@ elm-test
 ```
 
 ### Remarques , frustrations, choses apprises
-Ce qui m'a demandé un peu plus de travail a été de voir comment itérer sur 100 valeurs.
+Ce qui m'a demandé un peu plus de travail a été de voir comment itérer sur 100 valeurs (`List.range`).
 
 Egalement la mise en place des tests et de l'intégration continue (Travis CI) a demandé un peu de recherche.
 
-Cela m'a également demandé de bien comprendre List.map (aussi bien pour le programme que pour les tests).
+Cela m'a également demandé de bien comprendre `List.map` (aussi bien pour le programme que pour les tests).
 
 ## Sources de Katas
 
