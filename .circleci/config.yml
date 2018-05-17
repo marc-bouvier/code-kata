@@ -1,0 +1,4 @@
+general:
+  branches:
+    ignore:
+      - fizzbuzz-02-elm
