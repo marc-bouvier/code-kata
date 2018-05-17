@@ -2,6 +2,6 @@ version: 2
 jobs:
    build:
      docker:
-       - image: circleci/nodejs
+       - image: buildpack-deps:trusty
      steps:
        - run: echo "Pas de build circleci"
