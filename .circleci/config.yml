@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: codesimple:elm
+    steps:
+      - checkout
+      - run:
+          name: Compile
+          command: elm-compile
+      - run:
+          name: Run tests
+          command: elm-test
+
