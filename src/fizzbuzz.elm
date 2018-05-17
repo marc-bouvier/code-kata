@@ -6,7 +6,7 @@ import Html exposing (li, text, ul)
 -- TODO : générateur pour aller de 1 à 100
 -- fonction pour
 
-
+main : Html.Html msg
 main =
     ul []
         [ li [] [ text <| fizzbuzz 1 ]
