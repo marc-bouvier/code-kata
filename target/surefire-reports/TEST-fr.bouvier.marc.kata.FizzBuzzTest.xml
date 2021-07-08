@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.bouvier.marc.kata.FizzBuzzTest" time="0.771" tests="200" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/marco/sources/code-kata/target/test-classes:/home/marco/sources/code-kata/target/classes:/home/marco/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar:/home/marco/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/marco/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar:/home/marco/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:/home/marco/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/home/marco/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/home/marco/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.2.0/junit-jupiter-params-5.2.0.jar:/home/marco/.m2/repository/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.jar:/home/marco/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/marco/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/marco/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-9-oracle/lib"/>
+    <property name="sun.java.command" value="/home/marco/sources/code-kata/target/surefire/surefirebooter3543911587878280973.jar /home/marco/sources/code-kata/target/surefire 2018-05-16T16-46-12_941-jvmRun1 surefire14447706830350428881tmp surefire_011152097956815627912tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/marco/sources/code-kata/target/test-classes:/home/marco/sources/code-kata/target/classes:/home/marco/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar:/home/marco/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/marco/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar:/home/marco/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:/home/marco/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/home/marco/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/home/marco/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.2.0/junit-jupiter-params-5.2.0.jar:/home/marco/.m2/repository/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.jar:/home/marco/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/marco/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/marco/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/marco"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-9-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/marco/sources/code-kata"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/marco/sources/code-kata/target/surefire/surefirebooter3543911587878280973.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="marco"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-20-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/marco/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="user.dir" value="/home/marco/sources/code-kata"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="test_stage_1{int, String}[1]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.056"/>
+  <testcase name="test_stage_1{int, String}[2]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[3]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[4]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[5]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[6]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[7]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[8]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.004"/>
+  <testcase name="test_stage_1{int, String}[9]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[10]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[11]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[12]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[13]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[14]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[15]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[16]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.003"/>
+  <testcase name="test_stage_1{int, String}[17]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[18]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[19]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[20]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[21]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[22]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[23]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[24]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[25]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[26]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[27]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[28]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[29]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[30]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[31]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[32]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[33]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[34]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[35]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[36]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[37]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[38]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[39]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[40]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[41]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[42]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[43]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[44]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[45]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[46]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[47]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[48]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[49]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.003"/>
+  <testcase name="test_stage_1{int, String}[50]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[51]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[52]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[53]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_1{int, String}[54]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[55]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[56]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[57]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[58]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[59]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[60]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.003"/>
+  <testcase name="test_stage_1{int, String}[61]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[62]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[63]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[64]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[65]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[66]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[67]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[68]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[69]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[70]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[71]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[72]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[73]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[74]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[75]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[76]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[77]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[78]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[79]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[80]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[81]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[82]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[83]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[84]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[85]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[86]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[87]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[88]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[89]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[90]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[91]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[92]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[93]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[94]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[95]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[96]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[97]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[98]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_1{int, String}[99]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_1{int, String}[100]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_2{int, String}[1]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[2]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[3]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[4]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[5]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[6]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[7]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[8]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[9]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[10]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[11]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[12]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[13]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[14]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[15]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[16]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.003"/>
+  <testcase name="test_stage_2{int, String}[17]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[18]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.003"/>
+  <testcase name="test_stage_2{int, String}[19]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[20]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[21]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[22]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[23]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[24]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_2{int, String}[25]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[26]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[27]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[28]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_2{int, String}[29]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[30]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[31]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[32]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[33]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[34]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[35]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[36]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[37]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[38]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[39]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[40]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[41]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[42]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[43]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[44]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[45]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[46]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[47]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[48]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[49]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[50]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[51]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[52]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[53]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[54]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[55]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[56]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[57]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[58]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[59]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[60]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[61]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[62]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[63]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[64]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.004"/>
+  <testcase name="test_stage_2{int, String}[65]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[66]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[67]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[68]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[69]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[70]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[71]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[72]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[73]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[74]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[75]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[76]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[77]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[78]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[79]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[80]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[81]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[82]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[83]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[84]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[85]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.002"/>
+  <testcase name="test_stage_2{int, String}[86]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[87]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[88]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[89]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[90]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[91]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[92]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[93]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[94]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[95]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[96]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[97]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0"/>
+  <testcase name="test_stage_2{int, String}[98]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[99]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+  <testcase name="test_stage_2{int, String}[100]" classname="fr.bouvier.marc.kata.FizzBuzzTest" time="0.001"/>
+</testsuite>
